@@ -1,0 +1,87 @@
+.orderscss .container {
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orderscss .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.orderscss .column {
+  flex: 1;
+  padding: 10px;
+}
+
+.orderscss .table {
+  width: 100%;
+}
+
+.orderscss td {
+  padding: 8px;
+}
+
+.orderscss .fieldLabel {
+  min-width: 120px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.orderscss .requiredIndicator {
+  color: red;
+  margin-left: 4px;
+}
+
+.orderscss .inputField {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.orderscss .inputField:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.orderscss .buttonSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.orderscss .button {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.orderscss .button:last-child {
+  margin-right: 0;
+}
+
+.orderscss .button button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.orderscss .button button:hover {
+  background-color: #0056b3;
+}
+
+.orderscss .label {
+  font-weight: bold;
+}
